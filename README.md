@@ -1,5 +1,7 @@
 # Johny Underwater
 
+![Title](assets/images/logo_v2.png)
+
 Project for the Game Off 2018 game jam
 
 Tools
