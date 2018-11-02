@@ -1,4 +1,4 @@
-# johny_underwater
+# Johny Underwater
 
 Project for the Game Off 2018 game jam
 
