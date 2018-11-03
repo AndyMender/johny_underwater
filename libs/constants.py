@@ -9,7 +9,7 @@ import os.path
 import pathlib
 
 # pygame constants
-SCREEN_SIZE = (600, 400)
+SCREEN_SIZE = (640, 480)
 TITLE_BAR = 'Johny Underwater'
 FPS = 30
 COLLISION_COLOR = (255, 0, 0)
