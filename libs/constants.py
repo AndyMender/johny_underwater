@@ -8,11 +8,13 @@
 import os.path
 import pathlib
 
+# TODO: consider grouping constants into enum-like classes
+
 # pygame constants
 SCREEN_SIZE = (640, 480)
 TITLE_BAR = 'Johny Underwater'
 FPS = 30
-COLLISION_COLOR = (255, 0, 0)
+COLLISION_COLOR = (255, 0, 0, 100)
 LINE_COLOR = (0, 255, 0)
 
 # path constants

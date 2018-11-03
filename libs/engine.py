@@ -52,9 +52,9 @@ class Engine:
         self.pg.display.set_caption(TITLE_BAR)
 
         self.screen = self.pg.display.set_mode(SCREEN_SIZE, self.screen_flags)
-
         self.screen_rect = self.screen.get_rect()
 
+        # set up controllers
         self.pg.mouse.set_visible(False)
 
     def main_loop(self) -> bool:
@@ -66,13 +66,14 @@ class Engine:
         while True:
             # TODO: insert main game events HERE!
 
+            # capture key/mouse events and respond
             for event in self.pg.event.get():
                 if event.type == self.pg.QUIT:
                     self.pg.quit()
 
                     return PYGAME_SUCCESS
 
-            self.pg.display.flip()
+            self.pg.display.update()
 
             # limit screen refresh rate
             self.clock.tick(FPS)
@@ -121,8 +122,8 @@ class Engine:
 
                     # objects with points are polygons or lines
                     if hasattr(obj, "points") and obj.points is not None:
-                        pygame.draw.lines(self.screen, LINE_COLOR,
-                                          obj.closed, obj.points, 3)
+                        self.pg.draw.lines(self.screen, LINE_COLOR,
+                                           obj.closed, obj.points, 3)
 
                     # some objects contain images - blit them
                     elif hasattr(obj, "image") and obj.image is not None:
@@ -130,13 +131,19 @@ class Engine:
 
                         self.screen.blit(obj.image, obj_dims)
 
-                    # draw a rect for other objects
-                    # WARNING: THIS WILL DRAW COLLISION LINES!
+                    # draw a rect for other objects (collision zones, events, etc.)
+                    # TODO: separate event objects from collision markers
                     else:
                         obj_dims = (obj.x, obj.y, obj.width, obj.height)
 
-                        pygame.draw.rect(self.screen, COLLISION_COLOR,
-                                         obj_dims, 3)
+                        # create alpha-capable surface
+                        alpha_screen = self.screen.convert_alpha()
+
+                        self.pg.draw.rect(alpha_screen, COLLISION_COLOR,
+                                          obj_dims, 3)
+
+                        # blit alpha layer to display surface (applies transparency)
+                        self.screen.blit(alpha_screen, (0, 0))
 
             # draw image layers
             elif isinstance(layer, pytmx.TiledImageLayer):
@@ -144,3 +151,5 @@ class Engine:
                     self.screen.blit(layer.image, (0, 0))
 
         return True
+
+game_engine = Engine()
