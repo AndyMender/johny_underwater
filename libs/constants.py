@@ -24,6 +24,7 @@ MAP_DIR = os.path.join(ASSETS_DIR, "maps")
 SPRITE_DIR = os.path.join(ASSETS_DIR, "sprites")
 SFX_DIR = os.path.join(ASSETS_DIR, "sfx")
 MUSIC_DIR = os.path.join(ASSETS_DIR, "music")
+OBJ_DIR = os.path.join(ASSETS_DIR, "objects")
 
 # exit status codes
 PYGAME_FAILED = -1

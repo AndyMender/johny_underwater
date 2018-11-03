@@ -7,5 +7,6 @@
 Tools
 -----
 **Language**: Python 3.x (3.6+)  
-**Game engine**: [pygame](https://www.pygame.org/news)  
-**Map Editor**: [Tiled](https://www.mapeditor.org/)
+**Game Engine**: [pygame](https://www.pygame.org/news)  
+**Map Editor**: [Tiled](https://www.mapeditor.org/)  
+**Asset Data Format**: YAML
