@@ -33,6 +33,7 @@ class Engine:
         self.sfx = None
         self.clock = None
         self.map = None
+        self.entities = None
 
         # link pygame and set flags
         self.screen_flags = pygame.HWSURFACE | pygame.DOUBLEBUF
@@ -55,6 +56,9 @@ class Engine:
 
         # set up music mixer
         self.music = pygame.mixer.music
+
+        # prepare entity container for tracking
+        self.entities = pygame.sprite.Group()
 
         # start the game clock
         self.clock = pygame.time.Clock()
@@ -123,6 +127,8 @@ class Engine:
 
                 for obj in layer:
 
+                    # TODO: load entities from map objects
+
                     # objects with points are polygons or lines
                     if hasattr(obj, "points") and obj.points is not None:
                         pygame.draw.lines(self.screen, LINE_COLOR,
@@ -142,10 +148,11 @@ class Engine:
                         # create alpha-capable surface
                         alpha_screen = self.screen.convert_alpha()
 
+                        # draw objects on alpha surface
                         pygame.draw.rect(alpha_screen, COLLISION_COLOR,
                                          obj_dims, 3)
 
-                        # blit alpha layer to display surface (applies transparency)
+                        # blit alpha surface to display surface (applies transparency)
                         self.screen.blit(alpha_screen, (0, 0))
 
             # draw image layers
