@@ -21,7 +21,7 @@ logger = logging.getLogger(__file__)
 
 
 class Engine:
-    """Main handler class for controlling the pygame engine"""
+    """Main handler class for controlling the pygame engine."""
 
     def __init__(self):
         # set up main pygame params
@@ -39,10 +39,7 @@ class Engine:
         self.screen_flags = pygame.HWSURFACE | pygame.DOUBLEBUF
 
     def init(self) -> None:
-        """Main pygame init function
-
-        :return:
-        """
+        """Main pygame init function."""
 
         # start pygame, set up screen and rendering flags
         pygame.init()
@@ -63,11 +60,10 @@ class Engine:
         # start the game clock
         self.clock = pygame.time.Clock()
 
+    def main_loop(self) -> int:
+        """Main game loop.
 
-    def main_loop(self) -> bool:
-        """Main game loop
-
-        :return: True on correct exit, False on failure
+        :return: error code depending on exit condition
         """
 
         while True:
@@ -86,9 +82,9 @@ class Engine:
             self.clock.tick(FPS)
 
     def load_map(self, map_file: str) -> bool:
-        """Load and render a Tiled game map
+        """Load and render a Tiled game map.
 
-        :param map_file: path to Tiled map file
+        :param map_file: path to Tiled TMX map file
         :return: True on successful map load, False on failure
         """
 
@@ -162,4 +158,6 @@ class Engine:
 
         return True
 
+
+# instantiate engine for use by other modules
 game_engine = Engine()
