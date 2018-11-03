@@ -1,11 +1,11 @@
 # Johny Underwater
 
-![Title](assets/images/logo_v2.png)
+![Title](assets/images/logo_v3.png)
 
-Project for the Game Off 2018 game jam
+**_Project for the Game Off 2018 game jam_**
 
 Tools
 -----
 **Language**: Python 3.x (3.6+)  
-**Game engine**: [pygame](https://www.pygame.org/news) or [pyxel](https://github.com/kitao/pyxel)  
+**Game engine**: [pygame](https://www.pygame.org/news)  
 **Map Editor**: [Tiled](https://www.mapeditor.org/)
