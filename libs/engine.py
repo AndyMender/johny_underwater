@@ -67,8 +67,6 @@ class Engine:
         """
 
         while True:
-            # TODO: insert main game events HERE!
-
             # capture key/mouse events and respond
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -76,6 +74,12 @@ class Engine:
 
                     return PYGAME_SUCCESS
 
+            # TODO: insert main game events HERE!
+            # update entity state and redraw
+            self.entities.update()
+            self.entities.draw(self.screen)
+
+            # refresh main display surface
             pygame.display.update()
 
             # limit screen refresh rate
