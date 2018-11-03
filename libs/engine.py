@@ -31,15 +31,11 @@ class Engine:
         self.music = None
         self.gfx = None
         self.sfx = None
-
+        self.clock = None
         self.map = None
 
         # link pygame and set flags
-        self.pg = pygame
-        self.screen_flags = self.pg.HWSURFACE | self.pg.DOUBLEBUF
-
-        # start the game clock
-        self.clock = self.pg.time.Clock()
+        self.screen_flags = pygame.HWSURFACE | pygame.DOUBLEBUF
 
     def init(self) -> None:
         """Main pygame init function
@@ -48,14 +44,21 @@ class Engine:
         """
 
         # start pygame, set up screen and rendering flags
-        self.pg.init()
-        self.pg.display.set_caption(TITLE_BAR)
+        pygame.init()
+        pygame.display.set_caption(TITLE_BAR)
 
-        self.screen = self.pg.display.set_mode(SCREEN_SIZE, self.screen_flags)
+        self.screen = pygame.display.set_mode(SCREEN_SIZE, self.screen_flags)
         self.screen_rect = self.screen.get_rect()
 
         # set up controllers
-        self.pg.mouse.set_visible(False)
+        pygame.mouse.set_visible(False)
+
+        # set up music mixer
+        self.music = pygame.mixer.music
+
+        # start the game clock
+        self.clock = pygame.time.Clock()
+
 
     def main_loop(self) -> bool:
         """Main game loop
@@ -67,42 +70,42 @@ class Engine:
             # TODO: insert main game events HERE!
 
             # capture key/mouse events and respond
-            for event in self.pg.event.get():
-                if event.type == self.pg.QUIT:
-                    self.pg.quit()
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
 
                     return PYGAME_SUCCESS
 
-            self.pg.display.update()
+            pygame.display.update()
 
             # limit screen refresh rate
             self.clock.tick(FPS)
 
-    def load_map(self, mapfile: str) -> bool:
+    def load_map(self, map_file: str) -> bool:
         """Load and render a Tiled game map
 
-        :param mapfile: path to Tiled map file
+        :param map_file: path to Tiled map file
         :return: True on successful map load, False on failure
         """
 
         # validate map file extension and path
-        if not mapfile.endswith(".tmx"):
-            logger.warning(f"Wrong file extension for map file: {mapfile}")
+        if not map_file.endswith(".tmx"):
+            logger.warning(f"Wrong file extension for map file: {map_file}")
             return False
 
-        elif not os.path.exists(mapfile):
-            logger.warning(f"Path to map file does not exist: {mapfile}")
+        if not os.path.exists(map_file):
+            logger.warning(f"Path to map file does not exist: {map_file}")
             return False
 
         # extract data from mapfile and link to Engine
-        self.map = load_pygame(mapfile)
+        self.map = load_pygame(map_file)
 
         # NOTE: below code was adapted from:
         # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
 
         # set background color if applicable
         if self.map.background_color:
-            self.screen.fill(self.pg.Color(self.map.background_color))
+            self.screen.fill(self.map.background_color)
 
         # loop over layers and draw according to type
         for layer in self.map.visible_layers:
@@ -122,8 +125,8 @@ class Engine:
 
                     # objects with points are polygons or lines
                     if hasattr(obj, "points") and obj.points is not None:
-                        self.pg.draw.lines(self.screen, LINE_COLOR,
-                                           obj.closed, obj.points, 3)
+                        pygame.draw.lines(self.screen, LINE_COLOR,
+                                          obj.closed, obj.points, 3)
 
                     # some objects contain images - blit them
                     elif hasattr(obj, "image") and obj.image is not None:
@@ -139,8 +142,8 @@ class Engine:
                         # create alpha-capable surface
                         alpha_screen = self.screen.convert_alpha()
 
-                        self.pg.draw.rect(alpha_screen, COLLISION_COLOR,
-                                          obj_dims, 3)
+                        pygame.draw.rect(alpha_screen, COLLISION_COLOR,
+                                         obj_dims, 3)
 
                         # blit alpha layer to display surface (applies transparency)
                         self.screen.blit(alpha_screen, (0, 0))
