@@ -75,6 +75,9 @@ class Engine:
                     return PYGAME_SUCCESS
 
             # TODO: insert main game events HERE!
+            # redraw map to remove dead objects
+            self.refresh_map()
+
             # update entity state and redraw
             self.entities.update()
             self.entities.draw(self.screen)
@@ -84,6 +87,66 @@ class Engine:
 
             # limit screen refresh rate
             self.clock.tick(FPS)
+
+    def refresh_map(self) -> None:
+        """Reload currently loaded map."""
+
+        if self.map is not None:
+            # NOTE: below code was adapted from:
+            # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
+
+            # set background color if applicable
+            if self.map.background_color:
+                self.screen.fill(self.map.background_color)
+
+            # loop over layers and draw according to type
+            for layer in self.map.visible_layers:
+
+                # draw regular map tiles
+                if isinstance(layer, pytmx.TiledTileLayer):
+                    for x, y, image in layer.tiles():
+                        image_dims = (x * self.map.tilewidth,
+                                      y * self.map.tileheight)
+
+                        self.screen.blit(image, image_dims)
+
+                # draw objects
+                elif isinstance(layer, pytmx.TiledObjectGroup):
+
+                    for obj in layer:
+
+                        # TODO: load entities from map objects
+
+                        # objects with points are polygons or lines
+                        if hasattr(obj, "points") and obj.points is not None:
+                            pygame.draw.lines(self.screen, LINE_COLOR,
+                                              obj.closed, obj.points, 3)
+
+                        # some objects contain images - blit them
+                        elif hasattr(obj, "image") and obj.image is not None:
+                            obj_dims = (obj.x, obj.y)
+
+                            self.screen.blit(obj.image, obj_dims)
+
+                        # draw a rect for other objects (collision zones, events, etc.)
+                        # TODO: separate event objects from collision markers
+                        else:
+                            obj_dims = (obj.x, obj.y, obj.width, obj.height)
+
+                            # create alpha-capable surface
+                            alpha_screen = self.screen.convert_alpha()
+
+                            # draw objects on alpha surface
+                            pygame.draw.rect(alpha_screen, COLLISION_COLOR,
+                                             obj_dims, 3)
+
+                            # blit alpha surface to display surface (applies transparency)
+                            self.screen.blit(alpha_screen, (0, 0))
+
+                # draw image layers
+                elif isinstance(layer, pytmx.TiledImageLayer):
+                    if hasattr(layer, "image") and layer.image is not None:
+                        self.screen.blit(layer.image, (0, 0))
 
     def load_map(self, map_file: str) -> bool:
         """Load and render a Tiled game map.
@@ -104,61 +167,8 @@ class Engine:
         # extract data from mapfile and link to Engine
         self.map = load_pygame(map_file)
 
-        # NOTE: below code was adapted from:
-        # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
-
-        # set background color if applicable
-        if self.map.background_color:
-            self.screen.fill(self.map.background_color)
-
-        # loop over layers and draw according to type
-        for layer in self.map.visible_layers:
-
-            # draw regular map tiles
-            if isinstance(layer, pytmx.TiledTileLayer):
-                for x, y, image in layer.tiles():
-                    image_dims = (x * self.map.tilewidth,
-                                  y * self.map.tileheight)
-
-                    self.screen.blit(image, image_dims)
-
-            # draw objects
-            elif isinstance(layer, pytmx.TiledObjectGroup):
-
-                for obj in layer:
-
-                    # TODO: load entities from map objects
-
-                    # objects with points are polygons or lines
-                    if hasattr(obj, "points") and obj.points is not None:
-                        pygame.draw.lines(self.screen, LINE_COLOR,
-                                          obj.closed, obj.points, 3)
-
-                    # some objects contain images - blit them
-                    elif hasattr(obj, "image") and obj.image is not None:
-                        obj_dims = (obj.x, obj.y)
-
-                        self.screen.blit(obj.image, obj_dims)
-
-                    # draw a rect for other objects (collision zones, events, etc.)
-                    # TODO: separate event objects from collision markers
-                    else:
-                        obj_dims = (obj.x, obj.y, obj.width, obj.height)
-
-                        # create alpha-capable surface
-                        alpha_screen = self.screen.convert_alpha()
-
-                        # draw objects on alpha surface
-                        pygame.draw.rect(alpha_screen, COLLISION_COLOR,
-                                         obj_dims, 3)
-
-                        # blit alpha surface to display surface (applies transparency)
-                        self.screen.blit(alpha_screen, (0, 0))
-
-            # draw image layers
-            elif isinstance(layer, pytmx.TiledImageLayer):
-                if hasattr(layer, "image") and layer.image is not None:
-                    self.screen.blit(layer.image, (0, 0))
+        # send map sprites and objects to display surface
+        self.refresh_map()
 
         return True
 
