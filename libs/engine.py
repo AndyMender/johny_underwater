@@ -64,9 +64,6 @@ class Engine:
         """
 
         while True:
-            # simulate time by ticking the clock
-            self.clock.tick(FPS)
-
             # TODO: insert main game events HERE!
 
             for event in self.pg.event.get():
@@ -76,6 +73,9 @@ class Engine:
                     return PYGAME_SUCCESS
 
             self.pg.display.flip()
+
+            # limit screen refresh rate
+            self.clock.tick(FPS)
 
     def load_map(self, mapfile: str) -> bool:
         """Load and render a Tiled game map
@@ -93,24 +93,24 @@ class Engine:
             logger.warning(f"Path to map file does not exist: {mapfile}")
             return False
 
-        # extract data from mapfile
-        tmx_data = load_pygame(mapfile)
+        # extract data from mapfile and link to Engine
+        self.map = load_pygame(mapfile)
 
         # NOTE: below code was adapted from:
         # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
 
         # set background color if applicable
-        if tmx_data.background_color:
-            self.screen.fill(pygame.Color(tmx_data.background_color))
+        if self.map.background_color:
+            self.screen.fill(self.pg.Color(self.map.background_color))
 
         # loop over layers and draw according to type
-        for layer in tmx_data.visible_layers:
+        for layer in self.map.visible_layers:
 
             # draw regular map tiles
             if isinstance(layer, pytmx.TiledTileLayer):
                 for x, y, image in layer.tiles():
-                    image_dims = (x * tmx_data.tilewidth,
-                                  y * tmx_data.tileheight)
+                    image_dims = (x * self.map.tilewidth,
+                                  y * self.map.tileheight)
 
                     self.screen.blit(image, image_dims)
 
