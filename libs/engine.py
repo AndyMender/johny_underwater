@@ -5,9 +5,19 @@
     date: 2018-11-03
 """
 
-import pygame
+import logging
+import os.path
 
-from libs.constants import SCREEN_SIZE, TITLE_BAR
+import pygame
+import pytmx
+from pytmx.util_pygame import load_pygame
+
+from libs.constants import (COLLISION_COLOR, FPS, LINE_COLOR, PYGAME_ERROR,
+                            PYGAME_FAILED, PYGAME_SUCCESS, SCREEN_SIZE,
+                            TITLE_BAR)
+
+# set up logging
+logger = logging.getLogger(__file__)
 
 
 class Engine:
@@ -15,17 +25,23 @@ class Engine:
 
     def __init__(self):
         # set up main pygame params
-        self.SCREEN = None
-        self.SCREEN_RECT = None
-        self.FONTS = None
-        self.MUSIC = None
-        self.GFX = None
+        self.screen = None
+        self.screen_rect = None
+        self.fonts = None
+        self.music = None
+        self.gfx = None
+        self.sfx = None
+
+        self.map = None
 
         # link pygame and set flags
         self.pg = pygame
-        self.pg_flags = self.pg.HWSURFACE | self.pg.DOUBLEBUF
+        self.screen_flags = self.pg.HWSURFACE | self.pg.DOUBLEBUF
 
-    def init_pygame(self) -> None:
+        # start the game clock
+        self.clock = self.pg.time.Clock()
+
+    def init(self) -> None:
         """Main pygame init function
 
         :return:
@@ -35,9 +51,9 @@ class Engine:
         self.pg.init()
         self.pg.display.set_caption(TITLE_BAR)
 
-        self.SCREEN = self.pg.display.set_mode(SCREEN_SIZE, self.pg_flags)
+        self.screen = self.pg.display.set_mode(SCREEN_SIZE, self.screen_flags)
 
-        self.SCREEN_RECT = self.SCREEN.get_rect()
+        self.screen_rect = self.screen.get_rect()
 
         self.pg.mouse.set_visible(False)
 
@@ -48,6 +64,83 @@ class Engine:
         """
 
         while True:
+            # simulate time by ticking the clock
+            self.clock.tick(FPS)
+
+            # TODO: insert main game events HERE!
+
             for event in self.pg.event.get():
                 if event.type == self.pg.QUIT:
-                    return True
+                    self.pg.quit()
+
+                    return PYGAME_SUCCESS
+
+            self.pg.display.flip()
+
+    def load_map(self, mapfile: str) -> bool:
+        """Load and render a Tiled game map
+
+        :param mapfile: path to Tiled map file
+        :return: True on successful map load, False on failure
+        """
+
+        # validate map file extension and path
+        if not mapfile.endswith(".tmx"):
+            logger.warning(f"Wrong file extension for map file: {mapfile}")
+            return False
+
+        elif not os.path.exists(mapfile):
+            logger.warning(f"Path to map file does not exist: {mapfile}")
+            return False
+
+        # extract data from mapfile
+        tmx_data = load_pygame(mapfile)
+
+        # NOTE: below code was adapted from:
+        # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
+
+        # set background color if applicable
+        if tmx_data.background_color:
+            self.screen.fill(pygame.Color(tmx_data.background_color))
+
+        # loop over layers and draw according to type
+        for layer in tmx_data.visible_layers:
+
+            # draw regular map tiles
+            if isinstance(layer, pytmx.TiledTileLayer):
+                for x, y, image in layer.tiles():
+                    image_dims = (x * tmx_data.tilewidth,
+                                  y * tmx_data.tileheight)
+
+                    self.screen.blit(image, image_dims)
+
+            # draw objects
+            elif isinstance(layer, pytmx.TiledObjectGroup):
+
+                for obj in layer:
+
+                    # objects with points are polygons or lines
+                    if hasattr(obj, "points") and obj.points is not None:
+                        pygame.draw.lines(self.screen, LINE_COLOR,
+                                          obj.closed, obj.points, 3)
+
+                    # some objects contain images - blit them
+                    elif hasattr(obj, "image") and obj.image is not None:
+                        obj_dims = (obj.x, obj.y)
+
+                        self.screen.blit(obj.image, obj_dims)
+
+                    # draw a rect for other objects
+                    # WARNING: THIS WILL DRAW COLLISION LINES!
+                    else:
+                        obj_dims = (obj.x, obj.y, obj.width, obj.height)
+
+                        pygame.draw.rect(self.screen, COLLISION_COLOR,
+                                         obj_dims, 3)
+
+            # draw image layers
+            elif isinstance(layer, pytmx.TiledImageLayer):
+                if hasattr(layer, "image") and layer.image is not None:
+                    self.screen.blit(layer.image, (0, 0))
+
+        return True
