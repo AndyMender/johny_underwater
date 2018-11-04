@@ -15,7 +15,7 @@ import pygame
 # pygame constants
 SCREEN_SIZE = (640, 480)
 TITLE_BAR = 'Johny Underwater'
-FPS = 10
+FPS = 8
 COLLISION_COLOR = (255, 0, 0, 100)
 LINE_COLOR = (0, 255, 0)
 
