@@ -96,7 +96,7 @@ class RandomMovingEntity(MovingEntity):
         super().update()
 
 
-class Projectile(MovingEntity):
+class ProjectileEntity(MovingEntity):
     """Base class for unidirectionally moving projectiles
     (bolts, arrows, fireballs, etc.)"""
 
@@ -108,7 +108,7 @@ class Projectile(MovingEntity):
         # set speed and sprite group / name via parent
         super().__init__(sprite_group, speed)
 
-    def shoot(self):
+    def shoot(self) -> None:
         """Move projectile in selected direction."""
 
         # movement mapper
@@ -116,3 +116,16 @@ class Projectile(MovingEntity):
                      "down": self.move_down,
                      "left": self.move_left,
                      "right": self.move_right}
+
+        movements[self.state]()
+
+    def update(self):
+        """Update entity state."""
+
+        # move in selected direction
+        self.shoot()
+
+        # check "alive" status
+        # NOTE: parent class update() could revert state to "idle"
+        # which is to be avoided!
+        self.is_alive()
