@@ -6,6 +6,7 @@ from libs.constants import (MAP_DIR, PYGAME_ERROR, PYGAME_FAILED,
                             PYGAME_SUCCESS, SPRITE_DIR)
 from libs.engine import game_engine
 from libs.entity import AnimEntity
+from libs.npc import RandomAIEntity
 
 # set up main logger
 logger = logging.getLogger(__file__)
@@ -17,12 +18,20 @@ if __name__ == '__main__':
 
     game_engine.load_map(os.path.join(MAP_DIR, "project1.tmx"))
 
-    # add animated object to map
-    bubbles = AnimEntity("bubbles0")
-    bubbles.rect.x = 20
-    bubbles.rect.y = 20
+    # create motionless animated bubbles
+    bubbles1 = AnimEntity("bubbles0")
+    bubbles1.rect.x = 20
+    bubbles1.rect.y = 20
 
-    game_engine.entities.add(bubbles)
+    # create randomly moving static bubbles
+    bubbles2 = RandomAIEntity("bubbles0")
+    bubbles2.rect.x = 100
+    bubbles2.rect.y = 100
+    bubbles2.speed = 10
+
+    # add objects to group
+    game_engine.entities.add(bubbles1)
+    game_engine.entities.add(bubbles2)
 
     # get status code while exiting main loop
     exit_status = game_engine.main_loop()
