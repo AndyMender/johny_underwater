@@ -5,8 +5,8 @@ import sys
 from libs.constants import (MAP_DIR, PYGAME_ERROR, PYGAME_FAILED,
                             PYGAME_SUCCESS, SPRITE_DIR)
 from libs.engine import game_engine
-from libs.entity import AnimEntity
-from libs.npc import RandomAIEntity
+from libs.entity.animated import AnimEntity
+from libs.entity.moving import RandomMovingEntity
 
 # set up main logger
 logger = logging.getLogger(__file__)
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     bubbles1.rect.y = 20
 
     # create randomly moving static bubbles
-    bubbles2 = RandomAIEntity("bubbles0")
+    bubbles2 = RandomMovingEntity("bubbles0")
     bubbles2.rect.x = 100
     bubbles2.rect.y = 100
     bubbles2.speed = 10
