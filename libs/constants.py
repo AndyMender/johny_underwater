@@ -12,25 +12,26 @@ import pygame
 
 # TODO: consider grouping constants into enum-like classes
 # path constants
-BASEDIR = os.path.join(*pathlib.Path(os.path.realpath(__file__)).parts[:-2])
-ASSETS_DIR = os.path.join(BASEDIR, "assets")
-MAP_DIR = os.path.join(ASSETS_DIR, "maps")
-SPRITE_DIR = os.path.join(ASSETS_DIR, "sprites")
-SFX_DIR = os.path.join(ASSETS_DIR, "sfx")
-MUSIC_DIR = os.path.join(ASSETS_DIR, "music")
-OBJ_DIR = os.path.join(ASSETS_DIR, "objects")
+BASEDIR: str = os.path.join(*pathlib.Path(os.path.realpath(__file__)).parts[:-2])
+ASSETS_DIR: str = os.path.join(BASEDIR, "assets")
+MAP_DIR: str = os.path.join(ASSETS_DIR, "maps")
+SPRITE_DIR: str = os.path.join(ASSETS_DIR, "sprites")
+SFX_DIR: str = os.path.join(ASSETS_DIR, "sfx")
+MUSIC_DIR: str = os.path.join(ASSETS_DIR, "music")
+OBJ_DIR: str = os.path.join(ASSETS_DIR, "objects")
 
 # exit status codes
-PYGAME_FAILED = -1
-PYGAME_SUCCESS = 0
-PYGAME_ERROR = 1
+PYGAME_FAILED: int = -1
+PYGAME_SUCCESS: int = 0
+PYGAME_ERROR: int = 1
 
 # pygame constants
-SCREEN_SIZE = (640, 480)
-TITLE_BAR = 'Johny Underwater'
-FPS = 8
-COLLISION_COLOR = (255, 0, 0, 100)
-LINE_COLOR = (0, 255, 0)
+SCREEN_SIZE: tuple = (640, 480)
+TITLE_BAR: str = "Johny Underwater"
+FPS: int = 8
+COLLISION_COLOR: tuple = (255, 0, 0, 100)
+LINE_COLOR: tuple = (0, 255, 0)
+ANIM_RESET: int = 30
 
 # event and key constants
 PLAYER_EVENTS = (pygame.KEYDOWN,)

@@ -10,10 +10,11 @@ import os
 import os.path
 import re
 from typing import Union
+import time
 
 import pygame
 
-from libs.constants import SPRITE_DIR, ANIM_GROUPS
+from libs.constants import SPRITE_DIR, ANIM_GROUPS, ANIM_RESET
 
 # set up logging
 logger = logging.getLogger(__file__)
@@ -86,7 +87,7 @@ class Entity(pygame.sprite.Sprite):
             self.kill()
 
     def update(self) -> None:
-        """Generic update method - to be used later or in child classes."""
+        """Base update method - overridden in child classes."""
 
         # check "alive" status
         self.is_alive()
@@ -101,6 +102,9 @@ class MovingEntity(Entity):
 
         # multiplier for pixel displacement
         self.speed: int = speed
+
+        # internal clock for state reset
+        self.clock = round(time.time())
 
     def move_up(self) -> None:
         self.rect.y -= self.speed
@@ -117,6 +121,24 @@ class MovingEntity(Entity):
     def move_right(self) -> None:
         self.rect.x += self.speed
         self.state = "right"
+
+    def reset_state(self) -> None:
+        """Check if state needs to be reset to "idle" due to inactivity."""
+
+        timer = round(time.time())
+
+        if (timer - self.clock) >= ANIM_RESET:
+            self.state = "idle"
+            self.clock = timer
+
+    def update(self) -> None:
+        """Update moving sprite state."""
+
+        # check state and reset if needed
+        self.reset_state()
+
+        # run parent class base update procedure
+        super().update()
 
 
 class AnimEntity(Entity):
