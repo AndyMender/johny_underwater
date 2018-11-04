@@ -41,7 +41,7 @@ class Entity(pygame.sprite.Sprite):
             raise ValueError(f"Path to sprite group dir missing: {sprites}")
 
         # get path to first sprite
-        sprite_path = os.path.join(sprites, os.listdir(sprites)[0])
+        sprite_path = os.path.join(sprites, sorted(os.listdir(sprites))[0])
 
         # validate sprite
         if not sprite_path.endswith(".png"):
