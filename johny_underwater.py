@@ -18,8 +18,7 @@ if __name__ == '__main__':
     game_engine.load_map(os.path.join(MAP_DIR, "project1.tmx"))
 
     # add animated object to map
-    bubbles_path = os.path.join(SPRITE_DIR, "bubbles", "bubbles0_0.png")
-    bubbles = AnimEntity(bubbles_path)
+    bubbles = AnimEntity("bubbles0")
     bubbles.rect.x = 20
     bubbles.rect.y = 20
 

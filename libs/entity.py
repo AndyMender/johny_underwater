@@ -13,6 +13,8 @@ from typing import Union
 
 import pygame
 
+from libs.constants import SPRITE_DIR, ANIM_GROUPS
+
 # set up logging
 logger = logging.getLogger(__file__)
 
@@ -20,18 +22,33 @@ logger = logging.getLogger(__file__)
 class Entity(pygame.sprite.Sprite):
     """Base class for in-game entities."""
 
-    def __init__(self, sprite_file: str):
+    state: str = "idle"          # changed in classes implementing movement
+    name: str = None             # entity name or sprite group
+
+    def __init__(self, sprite_group: str):
 
         # set up base sprite properties from parent class
         super().__init__()
 
+        # assign name from sprite group (IMPORTANT!)
+        self.name = sprite_group
+
+        # get dir for sprite group and validate
+        sprites = os.path.join(SPRITE_DIR, sprite_group, self.state)
+
+        if not os.path.exists(sprites):
+            raise ValueError(f"Path to sprite group dir missing: {sprites}")
+
+        # get path to first sprite
+        sprite_path = os.path.join(sprites, os.listdir(sprites)[0])
+
         # validate sprite
-        if not sprite_file.endswith(".png"):
+        if not sprite_path.endswith(".png"):
             raise ValueError("Only PNG sprites are allowed"
                              " due to higher image quality.")
 
-        if not os.path.exists(sprite_file):
-            raise RuntimeError(f"Sprite path does not exist: {sprite_file}")
+        if not os.path.exists(sprite_path):
+            raise RuntimeError(f"Sprite path does not exist: {sprite_path}")
 
         # placeholders for sprite objects
         self.image = None
@@ -39,7 +56,7 @@ class Entity(pygame.sprite.Sprite):
 
         # load sprite image and build sprite rect
         # NOTE: used to redraw sprites to display surface by pygame.sprite.Group.draw()
-        self.load_sprite(sprite_file)
+        self.load_sprite(sprite_path)
 
         # set up base entity attributes
         self.hp: Union[float, int] = 1
@@ -54,6 +71,7 @@ class Entity(pygame.sprite.Sprite):
             self.image = sprite_obj
 
         # apply current 'x' and 'y' coordinates to new sprite rect
+        # NOTE: prevents coordinate reset
         if self.rect is not None:
             x, y = self.rect.x, self.rect.y
             self.rect = self.image.get_rect()
@@ -78,74 +96,86 @@ class Entity(pygame.sprite.Sprite):
 class MovingEntity(Entity):
     """Entity child class with movement implementation."""
 
-    def __init__(self, sprite_file: str, speed: int = 1):
-        super().__init__(sprite_file)
+    def __init__(self, sprite_group: str, speed: int = 1):
+        super().__init__(sprite_group)
 
         # multiplier for pixel displacement
         self.speed: int = speed
 
-        # tracker for anim group selection based on direction
-        self.direction: str = None
-
     def move_up(self) -> None:
         self.rect.y -= self.speed
-        self.direction = "up"
+        self.state = "up"
 
     def move_down(self) -> None:
         self.rect.y += self.speed
-        self.direction = "down"
+        self.state = "down"
 
     def move_left(self) -> None:
         self.rect.x -= self.speed
-        self.direction = "left"
+        self.state = "left"
 
     def move_right(self) -> None:
         self.rect.x += self.speed
-        self.direction = "right"
+        self.state = "right"
 
 
 class AnimEntity(Entity):
     """Entity child class with animation frames."""
 
-    def __init__(self, sprite_file: str):
-        super().__init__(sprite_file)
+    def __init__(self, sprite_group: str):
+        # load starting animation via parent class
+        super().__init__(sprite_group)
 
-        # placeholders for animation properties
+        # animation properties
         self.anim_frames: list = []
         self.frame_num: int = 0
         self.counter: int = 0
+        self.anim_groups: dict = {self.state: []}
 
         # collect animation frames and set frame number
+        self.load_animations()
+
+    def load_animations(self) -> None:
+        """Load all animation frames into attribute dict."""
+
+        # only collect valid frame images
         # TODO: allow more than 10 frames?
         anim_format = re.compile("_[0-9]\.png$")
 
-        if anim_format.search(sprite_file):
-            anim_dir = os.path.dirname(sprite_file)
+        # collection for frame numbers for all animation groups
+        frame_numbers = []
+
+        for anim_group in self.anim_groups:
+            anim_dir = os.path.join(SPRITE_DIR, self.name, anim_group)
 
             for anim_file in sorted(os.listdir(anim_dir)):
                 if anim_format.search(anim_file):
                     anim_path = os.path.join(anim_dir, anim_file)
 
-                    self.anim_frames.append(pygame.image.load(anim_path))
+                    self.anim_groups[anim_group].append(pygame.image.load(anim_path))
 
-            # count frames for cycling
-            self.frame_num = len(self.anim_frames)
+            frame_numbers.append(len(self.anim_groups[anim_group]))
 
-    def animate(self):
+        # count until the shortest animation's last frame
+        self.frame_num = min(frame_numbers)
+
+    def animate(self) -> None:
         """Load next animation frame."""
 
-        # increment counter and pick animation frame
-        self.counter += 1
+        # cycle only when multiple frames are present
+        if self.frame_num > 1:
+            # increment counter and pick animation frame
+            self.counter += 1
 
-        curr_anim = self.counter % self.frame_num
+            curr_anim = self.counter % self.frame_num
 
-        self.load_sprite(self.anim_frames[curr_anim])
+            self.load_sprite(self.anim_groups[self.state][curr_anim])
 
-        # reset counter if it hits last frame
-        if curr_anim == 0:
-            self.counter = 0
+            # reset counter if it hits last frame
+            if curr_anim == 0:
+                self.counter = 0
 
-    def update(self):
+    def update(self) -> None:
         """Update animated sprite state."""
 
         # trigger animation
