@@ -6,7 +6,7 @@ from libs.constants import (MAP_DIR, PYGAME_ERROR, PYGAME_FAILED,
                             PYGAME_SUCCESS, SPRITE_DIR)
 from libs.engine import game_engine
 from libs.entity.animated import AnimEntity
-from libs.entity.moving import RandomMovingEntity
+from libs.entity.moving import ProjectileEntity
 
 # set up main logger
 logger = logging.getLogger(__file__)
@@ -24,14 +24,13 @@ if __name__ == '__main__':
     bubbles1.rect.y = 20
 
     # create randomly moving static bubbles
-    bubbles2 = RandomMovingEntity("bubbles0")
-    bubbles2.rect.x = 100
-    bubbles2.rect.y = 100
-    bubbles2.speed = 10
+    arrow1 = ProjectileEntity("arrow0", "up", 5)
+    arrow1.rect.x = 300
+    arrow1.rect.y = 300
 
     # add objects to group
     game_engine.entities.add(bubbles1)
-    game_engine.entities.add(bubbles2)
+    game_engine.entities.add(arrow1)
 
     # get status code while exiting main loop
     exit_status = game_engine.main_loop()
