@@ -8,14 +8,21 @@
 import os.path
 import pathlib
 
+import pygame
+
 # TODO: consider grouping constants into enum-like classes
 
 # pygame constants
 SCREEN_SIZE = (640, 480)
 TITLE_BAR = 'Johny Underwater'
-FPS = 30
+FPS = 10
 COLLISION_COLOR = (255, 0, 0, 100)
 LINE_COLOR = (0, 255, 0)
+
+# event and key constants
+PLAYER_EVENTS = (pygame.KEYDOWN,)
+MOVEMENT_KEYS = (pygame.K_UP, pygame.K_DOWN,
+                 pygame.K_LEFT, pygame.K_RIGHT)
 
 # path constants
 BASEDIR = os.path.join(*pathlib.Path(os.path.realpath(__file__)).parts[:-2])
