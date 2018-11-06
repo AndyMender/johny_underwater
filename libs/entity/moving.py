@@ -7,10 +7,10 @@
 
 import logging
 import random
-import time
 
 from libs.constants import ANIM_GROUPS, ANIM_RESET
 from libs.entity.base import Entity
+from libs.utilities import timestamp_now
 
 # set up logging
 logger = logging.getLogger(__file__)
@@ -27,7 +27,7 @@ class MovingEntity(Entity):
         self.speed: int = speed
 
         # internal clock for state reset
-        self.clock = round(time.time())
+        self.clock = timestamp_now()
 
         # movement mapper
         self.movements = {"up": self.move_up,
@@ -38,23 +38,27 @@ class MovingEntity(Entity):
     def move_up(self) -> None:
         self.rect.y -= self.speed
         self.state = "up"
+        self.clock = timestamp_now()    # reset clock after movement
 
     def move_down(self) -> None:
         self.rect.y += self.speed
         self.state = "down"
+        self.clock = timestamp_now()    # reset clock after movement
 
     def move_left(self) -> None:
         self.rect.x -= self.speed
         self.state = "left"
+        self.clock = timestamp_now()    # reset clock after movement
 
     def move_right(self) -> None:
         self.rect.x += self.speed
         self.state = "right"
+        self.clock = timestamp_now()    # reset clock after movement
 
     def reset_state(self) -> None:
         """Check if state needs to be reset to "idle" due to inactivity."""
 
-        current_time = round(time.time())
+        current_time = timestamp_now()
 
         if (current_time - self.clock) >= ANIM_RESET:
             self.state = "idle"
