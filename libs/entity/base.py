@@ -24,6 +24,13 @@ class Entity(pygame.sprite.Sprite):
     state: str = "idle"          # changed in classes implementing movement
     name: str = None             # entity name or sprite group
 
+    # placeholders for sprite objects
+    image = None
+    rect = None
+
+    # base entity attributes
+    hp: Union[float, int] = 1
+
     def __init__(self, sprite_group: str):
 
         # set up base sprite properties from parent class
@@ -49,16 +56,9 @@ class Entity(pygame.sprite.Sprite):
         if not os.path.exists(sprite_path):
             raise RuntimeError(f"Sprite path does not exist: {sprite_path}")
 
-        # placeholders for sprite objects
-        self.image = None
-        self.rect = None
-
         # load sprite image and build sprite rect
         # NOTE: used to redraw sprites to display surface by pygame.sprite.Group.draw()
         self.load_sprite(sprite_path)
-
-        # set up base entity attributes
-        self.hp: Union[float, int] = 1
 
     def load_sprite(self, sprite_obj: Union[str, pygame.Surface]) -> None:
         """Load sprite from file or from pre-loaded Surface."""
