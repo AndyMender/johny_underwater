@@ -29,6 +29,12 @@ class MovingEntity(Entity):
         # internal clock for state reset
         self.clock = round(time.time())
 
+        # movement mapper
+        self.movements = {"up": self.move_up,
+                          "down": self.move_down,
+                          "left": self.move_left,
+                          "right": self.move_right}
+
     def move_up(self) -> None:
         self.rect.y -= self.speed
         self.state = "up"
@@ -48,11 +54,11 @@ class MovingEntity(Entity):
     def reset_state(self) -> None:
         """Check if state needs to be reset to "idle" due to inactivity."""
 
-        timer = round(time.time())
+        current_time = round(time.time())
 
-        if (timer - self.clock) >= ANIM_RESET:
+        if (current_time - self.clock) >= ANIM_RESET:
             self.state = "idle"
-            self.clock = timer
+            self.clock = current_time
 
     def update(self) -> None:
         """Update moving sprite state."""
@@ -70,18 +76,12 @@ class RandomMovingEntity(MovingEntity):
     def move_random(self) -> None:
         """Move entity in a random direction."""
 
-        # movement mapper
-        movements = {"up": self.move_up,
-                     "down": self.move_down,
-                     "left": self.move_left,
-                     "right": self.move_right}
-
         # get state at random
         state = random.choice(ANIM_GROUPS)
 
-        # execute motion
-        if state in movements:
-            movements[state]()
+        # execute motion or switch to "idle"
+        if state in self.movements:
+            self.movements[state]()
 
         elif state == "idle":
             self.state = "idle"
@@ -111,13 +111,7 @@ class ProjectileEntity(MovingEntity):
     def shoot(self) -> None:
         """Move projectile in selected direction."""
 
-        # movement mapper
-        movements = {"up": self.move_up,
-                     "down": self.move_down,
-                     "left": self.move_left,
-                     "right": self.move_right}
-
-        movements[self.state]()
+        self.movements[self.state]()
 
     def update(self):
         """Update entity state."""
