@@ -10,6 +10,7 @@ import random
 
 from libs.constants import ANIM_GROUPS, ANIM_RESET
 from libs.entity.base import Entity
+from libs.entity.animated import MovingAnimEntity
 from libs.utilities import timestamp_now
 
 # set up logging
@@ -74,7 +75,7 @@ class MovingEntity(Entity):
         super().update()
 
 
-class RandomMovingEntity(MovingEntity):
+class RandomMovingEntity(MovingAnimEntity):
     """Base class for randomly moving creatures."""
 
     def move_random(self) -> None:
