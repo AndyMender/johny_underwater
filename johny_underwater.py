@@ -7,6 +7,7 @@ from libs.constants import (MAP_DIR, PYGAME_ERROR, PYGAME_FAILED,
 from libs.engine import game_engine
 from libs.entity.animated import AnimEntity
 from libs.entity.moving import ProjectileEntity
+from libs.entity.player import player_obj
 
 # set up main logger
 logger = logging.getLogger(__file__)
@@ -31,6 +32,7 @@ if __name__ == '__main__':
     # add objects to group
     game_engine.entities.add(bubbles1)
     game_engine.entities.add(arrow1)
+    game_engine.entities.add(player_obj)
 
     # get status code while exiting main loop
     exit_status = game_engine.main_loop()
