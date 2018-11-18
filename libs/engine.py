@@ -15,6 +15,7 @@ from pytmx.util_pygame import load_pygame
 from libs.constants import (COLLISION_COLOR, FPS, LINE_COLOR, PYGAME_ERROR,
                             PYGAME_FAILED, PYGAME_SUCCESS, SCREEN_SIZE,
                             TITLE_BAR)
+from libs.entity.player import player_obj
 
 # set up logging
 logger = logging.getLogger(__file__)
@@ -33,6 +34,7 @@ class Engine:
         self.sfx = None
         self.clock = None
         self.map = None
+        self.collision_map = None          # TODO: populate with collision coordinates
         self.entities = None
 
         # link pygame and set flags
@@ -41,10 +43,14 @@ class Engine:
     def init(self) -> None:
         """Main pygame init function."""
 
-        # start pygame, set up screen and rendering flags
+        # start pygame and set up display
         pygame.init()
         pygame.display.set_caption(TITLE_BAR)
 
+        # set up key handling
+        pygame.key.set_repeat(1, 3)
+
+        # set up screen and render flags
         self.screen = pygame.display.set_mode(SCREEN_SIZE, self.screen_flags)
         self.screen_rect = self.screen.get_rect()
 
@@ -69,12 +75,19 @@ class Engine:
         while True:
             # capture key/mouse events and respond
             for event in pygame.event.get():
+                # main window events
                 if event.type == pygame.QUIT:
                     pygame.quit()
 
                     return PYGAME_SUCCESS
 
+                # key-press events
+                elif event.type == pygame.KEYDOWN:
+                    # TODO: split player and menu events
+                    player_obj.handle_event(event)
+
             # TODO: insert main game events HERE!
+
             # redraw map to remove dead objects
             self.refresh_map()
 
