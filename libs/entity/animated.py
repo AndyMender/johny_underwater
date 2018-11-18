@@ -50,6 +50,7 @@ class AnimEntity(Entity):
         if self.name is None:
             raise ValueError("Attribute 'name' not set!")
 
+        # collect animation frames for each animation 'state'
         for anim_group in self.anim_groups:
             anim_dir = os.path.join(SPRITE_DIR, self.name, anim_group)
 
@@ -66,8 +67,10 @@ class AnimEntity(Entity):
                 if anim_format.search(anim_file):
                     anim_path = os.path.join(anim_dir, anim_file)
 
+                    # load and store animation frame
                     self.anim_groups[anim_group].append(pygame.image.load(anim_path))
 
+                # collect frame counts
             frame_numbers.append(len(self.anim_groups[anim_group]))
 
         # count until the shortest animation's last frame
@@ -119,10 +122,12 @@ class MovingAnimEntity(AnimEntity):
         self.clock = timestamp_now()
 
         # movement mapper
-        self.movements = {"up": self.move_up,
-                          "down": self.move_down,
-                          "left": self.move_left,
-                          "right": self.move_right}
+        self.movements = {
+            "up": self.move_up,
+            "down": self.move_down,
+            "left": self.move_left,
+            "right": self.move_right
+        }
 
     def move_up(self) -> None:
         self.rect.y -= self.speed
