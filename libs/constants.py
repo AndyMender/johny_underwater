@@ -15,6 +15,7 @@ import pygame
 BASEDIR: str = os.path.join(*pathlib.Path(os.path.realpath(__file__)).parts[:-2])
 ASSETS_DIR: str = os.path.join(BASEDIR, "assets")
 MAP_DIR: str = os.path.join(ASSETS_DIR, "maps")
+TILE_DIR: str = os.path.join(ASSETS_DIR, "tiles")
 SPRITE_DIR: str = os.path.join(ASSETS_DIR, "sprites")
 SFX_DIR: str = os.path.join(ASSETS_DIR, "sfx")
 MUSIC_DIR: str = os.path.join(ASSETS_DIR, "music")
