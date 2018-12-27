@@ -17,14 +17,14 @@ if __name__ == '__main__':
     # start game engine and load elements
     game_engine.init()
 
-    game_engine.load_map(os.path.join(MAP_DIR, "project1.tmx"))
+    game_engine.load_map(os.path.join(MAP_DIR, "test0.tmx"))
 
     # create motionless animated bubbles
     bubbles1 = AnimEntity("bubbles0")
     bubbles1.rect.x = 20
     bubbles1.rect.y = 20
 
-    # create randomly moving static bubbles
+    # create randomly moving static projectile
     arrow1 = ProjectileEntity("arrow0", "up", 5)
     arrow1.rect.x = 300
     arrow1.rect.y = 300
