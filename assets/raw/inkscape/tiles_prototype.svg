@@ -1,0 +1,2980 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666669"
+   version="1.1"
+   id="svg831"
+   sodipodi:docname="tiles_prototype.svg"
+   shape-rendering="crispEdges"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/andy/projects/johny_underwater/assets/sprites/bubbles/bubbles0_6.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs825" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="51.078105"
+     inkscape:cy="-0.45513114"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="false"
+     inkscape:snap-grids="true"
+     inkscape:pagecheckerboard="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1376"
+       enabled="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5081"
+       empspacing="2"
+       enabled="true"
+       dotted="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-288.53332)">
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="1.7763568e-15"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5549"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5551"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916664"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="1.0583333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5553"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5555"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5875"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5557"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5559"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5561"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5563"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5565"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5567"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5569"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5571"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5573"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5575"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5577"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5579"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5581"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.384186e-08"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="0.52916664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5583"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5585"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583333"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="1.5875"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5587"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5589"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5591"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5593"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5595"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5597"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5599"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5601"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5603"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5605"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5607"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5609"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5611"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="299.64581"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="4.768372e-08"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5613"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5615"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916664"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="1.0583333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5617"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5619"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5875"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5621"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5623"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5625"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5627"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5629"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5631"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5633"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5635"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5637"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5639"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5641"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="300.17496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.17496"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5643"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5645"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.1525577e-08"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="0.52916664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5647"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5649"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583333"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="1.5875"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5651"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5653"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5655"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5657"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5659"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5661"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5663"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5665"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5667"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5669"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5671"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="300.70413"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5673"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5675"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="300.70413"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="9.5367433e-08"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5677"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5679"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916664"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="1.0583333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5681"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5683"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5875"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5685"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5687"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5689"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5691"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5693"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5695"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5697"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5699"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5701"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5703"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5705"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="301.23331"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.23331"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5707"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5709"
+       width="0.5291667"
+       height="0.5291667"
+       x="-6.3578291e-08"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="0.52916658"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5711"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5713"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583332"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="1.5874999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5715"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5717"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5719"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5721"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5723"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5725"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5727"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5729"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5731"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5733"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5735"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="301.76245"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5737"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5739"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="301.76245"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="-3.9736427e-08"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5741"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5743"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916658"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="1.0583332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5745"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5747"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5874999"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5749"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5751"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5753"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5755"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5757"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5759"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5761"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5763"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5765"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5767"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5769"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5771"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5773"
+       width="0.5291667"
+       height="0.5291667"
+       x="-1.5894569e-08"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="0.52916658"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5775"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5777"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583332"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="1.5874999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5779"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5781"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5783"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5785"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5787"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5789"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5791"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5793"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5795"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5797"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5799"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.82077"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5801"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5803"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="302.82077"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="7.9472899e-09"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5805"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5807"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916658"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="1.0583332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5809"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5811"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5874999"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5813"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5815"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5817"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5819"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5821"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5823"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5825"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5827"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5829"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5831"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5833"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="303.34995"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34995"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5835"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5837"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.1789149e-08"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="0.52916658"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5839"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5841"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583332"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="1.5874999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5843"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5845"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5847"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5849"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5851"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5853"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5855"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5857"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5859"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5861"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5863"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5865"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5867"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5869"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7683713e-08"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="0.52916664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5871"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5873"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583333"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="1.5875"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5875"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5877"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5879"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5881"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5883"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5885"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5887"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5889"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5891"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5893"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5895"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.40833"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5897"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5899"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="304.40833"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="7.1525577e-08"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5901"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5903"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916664"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="1.0583333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5905"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5907"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5875"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5909"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5911"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5913"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5915"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5917"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5919"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5921"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5923"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5925"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5927"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5929"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="304.93747"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="304.93747"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5931"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5933"
+       width="0.5291667"
+       height="0.5291667"
+       x="9.5367433e-08"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="0.52916664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5935"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5937"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583333"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="1.5875"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5939"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5941"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5943"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5945"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5947"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5949"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5951"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5953"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5955"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5957"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5959"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.46664"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5961"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5963"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="305.46664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="1.1920929e-07"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5965"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5967"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916664"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="1.0583333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5969"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5971"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5875"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5973"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5975"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5977"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5979"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5981"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5983"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5985"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5987"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5989"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5991"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5993"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="305.99582"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="305.99582"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5995"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="1.7763568e-15"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect5997"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5999"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916652"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="1.0583332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6001"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6003"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.5874999"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="2.1166666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6005"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6007"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.6458333"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="3.175"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6009"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6011"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041667"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="4.2333336"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6013"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6015"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="5.2916665"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6017"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6019"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.8208332"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="6.3499999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6021"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6023"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.8791666"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6025"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.4083333"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="7.9375"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6027"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6029"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.3841858e-08"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="0.52916652"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6031"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6033"
+       width="0.5291667"
+       height="0.5291667"
+       x="1.0583332"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="1.5874999"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6035"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6037"
+       width="0.5291667"
+       height="0.5291667"
+       x="2.1166666"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="2.6458333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6039"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6041"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.175"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="3.7041667"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6043"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6045"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333336"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6047"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6049"
+       width="0.5291667"
+       height="0.5291667"
+       x="5.2916665"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="5.8208332"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6051"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6053"
+       width="0.5291667"
+       height="0.5291667"
+       x="6.3499999"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="6.8791666"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6055"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="7.4083333"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect6057"
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#6b9b9f;fill-opacity:0.98941806;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect6059"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.9375"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-opacity:0.71428576;stroke:#000000;stroke-width:0.11342935;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5552-6-3-1"
+       width="8.403224"
+       height="8.4032326"
+       x="-19.049999"
+       y="299.11664" />
+    <rect
+       style="fill:none;fill-opacity:0.71428576;stroke:#000000;stroke-width:0.11342935;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect5552-6-3-9"
+       width="8.403224"
+       height="8.4032326"
+       x="-9.5249996"
+       y="299.11664" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="306.52496"
+       x="0"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4625"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4674"
+       width="0.5291667"
+       height="0.5291667"
+       x="0"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="0.52916622"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4676"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4678"
+       width="0.5291667"
+       height="0.5291667"
+       x="0"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.64581"
+       x="0"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4680"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4682"
+       width="0.5291667"
+       height="0.5291667"
+       x="0.52916622"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4684"
+       width="0.5291667"
+       height="0.5291667"
+       x="-8.4666662"
+       y="306.52496"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1,1)" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="-8.4666662"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4686"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4688"
+       width="0.5291667"
+       height="0.5291667"
+       x="-7.937501"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1,1)" />
+    <rect
+       transform="rotate(90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="-8.4666662"
+       x="299.64581"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4690"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       transform="rotate(90)"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4692"
+       width="0.5291667"
+       height="0.5291667"
+       x="299.11664"
+       y="-8.4666662"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       transform="rotate(90)"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="-7.9375029"
+       x="299.11664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4694"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="3.1750002"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4696"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4698"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.7041664"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="299.11664"
+       x="4.2333326"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4700"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4702"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.7624998"
+       y="299.11664"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4712"
+       width="0.5291667"
+       height="0.5291667"
+       x="0"
+       y="302.29163"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.8208"
+       x="0"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4714"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4716"
+       width="0.5291667"
+       height="0.5291667"
+       x="0"
+       y="303.34998"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.87912"
+       x="0"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4718"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4720"
+       width="0.5291667"
+       height="0.5291667"
+       x="3.1750002"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="3.7041664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4722"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4724"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333326"
+       y="307.05414"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="307.05414"
+       x="4.7624998"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4726"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.29163"
+       x="7.937501"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4728"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4730"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.937501"
+       y="302.8208"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34998"
+       x="7.937501"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4732"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4734"
+       width="0.5291667"
+       height="0.5291667"
+       x="7.937501"
+       y="303.87912"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="302.8208"
+       x="3.7041664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4736"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925"
+       id="rect4738"
+       width="0.5291667"
+       height="0.5291667"
+       x="4.2333326"
+       y="302.8208"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34998"
+       x="4.2333326"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4740"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/andy/git_repos/johny_underwater/assets/tiles/floor0.png"
+       y="303.34998"
+       x="3.7041664"
+       height="0.5291667"
+       width="0.5291667"
+       id="rect4742"
+       style="fill:#001822;fill-opacity:0.79365079;stroke:none;stroke-width:0.05291666;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.73291925" />
+  </g>
+</svg>
