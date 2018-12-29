@@ -108,10 +108,6 @@ class Engine:
             # NOTE: below code was adapted from:
             # https://www.reddit.com/r/pygame/comments/2oxixc/pytmx_tiled/
 
-            # set background color if applicable
-            if self.map.background_color:
-                self.screen.fill(self.map.background_color)
-
             # loop over layers and draw according to type
             for layer in self.map.visible_layers:
 
