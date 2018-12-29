@@ -12,7 +12,7 @@ from libs.entity.player import player_obj
 # set up main logger
 logger = logging.getLogger(__file__)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     # start game engine and load elements
     game_engine.init()
