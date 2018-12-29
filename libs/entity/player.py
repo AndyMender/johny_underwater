@@ -29,4 +29,4 @@ class PlayerEntity(MovingAnimEntity):
             self.movement_events[event.key]()
 
 
-player_obj = PlayerEntity("player0", 10)
+player_obj = PlayerEntity("player0", 8)
