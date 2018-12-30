@@ -2,7 +2,7 @@
 
 ![Title](assets/images/logo_v3.png)
 
-**_Project for the Game Off 2018 game jam_**
+**_Project for the (already finished) Game Off 2018 game jam_**
 
 Tools
 -----
@@ -10,3 +10,7 @@ Tools
 **Game Engine**: [pygame](https://www.pygame.org/news)  
 **Map Editor**: [Tiled](https://www.mapeditor.org/)  
 **Asset Data Format**: YAML
+
+Changelog
+---------
+**2018-12** - added player character sprites and initial test map with tiles
